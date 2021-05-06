@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>263050867376-19k71ceaomfhbrqh78ms7dl5o34so1qo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.263050867376-19k71ceaomfhbrqh78ms7dl5o34so1qo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDro-K6nmfO74EsflNzDH7xdnu1bew7Nmo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>263050867376</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ait.com.quick-groceries</string>
+	<key>PROJECT_ID</key>
+	<string>recipes-ea3d4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>recipes-ea3d4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:263050867376:ios:46808bb2395413fce60175</string>
+	<key>DATABASE_URL</key>
+	<string>https://recipes-ea3d4.firebaseio.com</string>
+</dict>
+</plist>

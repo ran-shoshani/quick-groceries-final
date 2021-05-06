@@ -1,0 +1,6 @@
+framework module Pods_quick_groceriesTests {
+  umbrella header "Pods-quick-groceriesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

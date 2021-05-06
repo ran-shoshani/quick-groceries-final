@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073CDED8775096347490818D /* Pods_quick_groceriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD663D0B186039AE39A9817 /* Pods_quick_groceriesTests.framework */; };
+		3F3BA060263E613F004FD29C /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA05E263E613F004FD29C /* Recipe.m */; };
+		3F3BA066263E6162004FD29C /* RecipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA065263E6162004FD29C /* RecipeCell.m */; };
+		3F5A2A30262011BB006D0706 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A2A2F262011BB006D0706 /* RecipeViewController.m */; };
+		3F6D5B08263FC1E8005682CD /* EditPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D5B07263FC1E8005682CD /* EditPriceCell.m */; };
+		3F6D5B11264004EF005682CD /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D5B10264004EE005682CD /* NavigationViewController.m */; };
+		3F6D5B1726400DA4005682CD /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D5B1626400DA4005682CD /* Ingredient.m */; };
+		3F7D422E261404FC005D1F98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D422D261404FC005D1F98 /* AppDelegate.m */; };
+		3F7D4231261404FC005D1F98 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4230261404FC005D1F98 /* SceneDelegate.m */; };
+		3F7D4237261404FC005D1F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D4235261404FC005D1F98 /* Main.storyboard */; };
+		3F7D4239261404FF005D1F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D4238261404FF005D1F98 /* Assets.xcassets */; };
+		3F7D423C261404FF005D1F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D423A261404FF005D1F98 /* LaunchScreen.storyboard */; };
+		3F7D423F261404FF005D1F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D423E261404FF005D1F98 /* main.m */; };
+		3F7D424926140500005D1F98 /* quick_groceriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D424826140500005D1F98 /* quick_groceriesTests.m */; };
+		3F7D425426140500005D1F98 /* quick_groceriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D425326140500005D1F98 /* quick_groceriesUITests.m */; };
+		3F7D4265261409A6005D1F98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D4264261409A6005D1F98 /* GoogleService-Info.plist */; };
+		3FAC34F62632852A0021A92D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC34F52632852A0021A92D /* TabBarController.m */; };
+		9F0DCA1C6ACBAC31FFC4A42E /* Pods_quick_groceries_quick_groceriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392C8D02D00F9F921305BA0C /* Pods_quick_groceries_quick_groceriesUITests.framework */; };
+		B078B7B9A72FFB980BAB2442 /* Pods_quick_groceries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D28901305EEA9E151AB586B /* Pods_quick_groceries.framework */; };
+		F026486826328320004A8583 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F026486726328320004A8583 /* LoginViewController.m */; };
+		F0E2472D26258CFF00ED8BD9 /* EditPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2472C26258CFF00ED8BD9 /* EditPriceViewController.m */; };
+		F0E2473326259BD200ED8BD9 /* GroceryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2473226259BD200ED8BD9 /* GroceryListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7D424526140500005D1F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7D4221261404FC005D1F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7D4228261404FC005D1F98;
+			remoteInfo = "quick-groceries";
+		};
+		3F7D425026140500005D1F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7D4221261404FC005D1F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7D4228261404FC005D1F98;
+			remoteInfo = "quick-groceries";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392C8D02D00F9F921305BA0C /* Pods_quick_groceries_quick_groceriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_groceries_quick_groceriesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D28901305EEA9E151AB586B /* Pods_quick_groceries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_groceries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3BA05E263E613F004FD29C /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		3F3BA05F263E613F004FD29C /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		3F3BA064263E6162004FD29C /* RecipeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeCell.h; sourceTree = "<group>"; };
+		3F3BA065263E6162004FD29C /* RecipeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeCell.m; sourceTree = "<group>"; };
+		3F5A2A2E262011BB006D0706 /* RecipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		3F5A2A2F262011BB006D0706 /* RecipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		3F6D5B06263FC1E8005682CD /* EditPriceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditPriceCell.h; sourceTree = "<group>"; };
+		3F6D5B07263FC1E8005682CD /* EditPriceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditPriceCell.m; sourceTree = "<group>"; };
+		3F6D5B0F264004EE005682CD /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		3F6D5B10264004EE005682CD /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		3F6D5B1526400DA4005682CD /* Ingredient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		3F6D5B1626400DA4005682CD /* Ingredient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		3F7D4229261404FC005D1F98 /* quick-groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quick-groceries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D422C261404FC005D1F98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7D422D261404FC005D1F98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7D422F261404FC005D1F98 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F7D4230261404FC005D1F98 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F7D4236261404FC005D1F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7D4238261404FF005D1F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7D423B261404FF005D1F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7D423D261404FF005D1F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D423E261404FF005D1F98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7D424426140500005D1F98 /* quick-groceriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quick-groceriesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D424826140500005D1F98 /* quick_groceriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quick_groceriesTests.m; sourceTree = "<group>"; };
+		3F7D424A26140500005D1F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D424F26140500005D1F98 /* quick-groceriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quick-groceriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D425326140500005D1F98 /* quick_groceriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quick_groceriesUITests.m; sourceTree = "<group>"; };
+		3F7D425526140500005D1F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D4264261409A6005D1F98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FAC34F42632852A0021A92D /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3FAC34F52632852A0021A92D /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		48E5BD3EB1E0EEB9B4259881 /* Pods-quick-groceries-quick-groceriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceries-quick-groceriesUITests.release.xcconfig"; path = "Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93435FEECC1214FAD2046727 /* Pods-quick-groceriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceriesTests.release.xcconfig"; path = "Target Support Files/Pods-quick-groceriesTests/Pods-quick-groceriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		93E28831635C36F1006C7824 /* Pods-quick-groceriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceriesTests.debug.xcconfig"; path = "Target Support Files/Pods-quick-groceriesTests/Pods-quick-groceriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A260262E922752A1E790B862 /* Pods-quick-groceries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceries.debug.xcconfig"; path = "Target Support Files/Pods-quick-groceries/Pods-quick-groceries.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC0E7DDA2EDE7A73DDF8BF0 /* Pods-quick-groceries-quick-groceriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceries-quick-groceriesUITests.debug.xcconfig"; path = "Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E635EE98EA4C7D0AE45FC2A3 /* Pods-quick-groceries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-groceries.release.xcconfig"; path = "Target Support Files/Pods-quick-groceries/Pods-quick-groceries.release.xcconfig"; sourceTree = "<group>"; };
+		F026486626328320004A8583 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F026486726328320004A8583 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F0E2472B26258CFF00ED8BD9 /* EditPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPriceViewController.h; sourceTree = "<group>"; };
+		F0E2472C26258CFF00ED8BD9 /* EditPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPriceViewController.m; sourceTree = "<group>"; };
+		F0E2473126259BD200ED8BD9 /* GroceryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroceryListViewController.h; sourceTree = "<group>"; };
+		F0E2473226259BD200ED8BD9 /* GroceryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryListViewController.m; sourceTree = "<group>"; };
+		FBD663D0B186039AE39A9817 /* Pods_quick_groceriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_groceriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7D4226261404FC005D1F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B078B7B9A72FFB980BAB2442 /* Pods_quick_groceries.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424126140500005D1F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073CDED8775096347490818D /* Pods_quick_groceriesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424C26140500005D1F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0DCA1C6ACBAC31FFC4A42E /* Pods_quick_groceries_quick_groceriesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3BA05D263E611B004FD29C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				3F3BA064263E6162004FD29C /* RecipeCell.h */,
+				3F3BA065263E6162004FD29C /* RecipeCell.m */,
+				3F6D5B06263FC1E8005682CD /* EditPriceCell.h */,
+				3F6D5B07263FC1E8005682CD /* EditPriceCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		3F5A2A2A26200EE2006D0706 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2472B26258CFF00ED8BD9 /* EditPriceViewController.h */,
+				F0E2472C26258CFF00ED8BD9 /* EditPriceViewController.m */,
+				3F5A2A2E262011BB006D0706 /* RecipeViewController.h */,
+				3F5A2A2F262011BB006D0706 /* RecipeViewController.m */,
+				F0E2473126259BD200ED8BD9 /* GroceryListViewController.h */,
+				F0E2473226259BD200ED8BD9 /* GroceryListViewController.m */,
+				F026486626328320004A8583 /* LoginViewController.h */,
+				F026486726328320004A8583 /* LoginViewController.m */,
+				3FAC34F42632852A0021A92D /* TabBarController.h */,
+				3FAC34F52632852A0021A92D /* TabBarController.m */,
+				3F6D5B0F264004EE005682CD /* NavigationViewController.h */,
+				3F6D5B10264004EE005682CD /* NavigationViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F7D4220261404FC005D1F98 = {
+			isa = PBXGroup;
+			children = (
+				3F7D422B261404FC005D1F98 /* quick-groceries */,
+				3F7D424726140500005D1F98 /* quick-groceriesTests */,
+				3F7D425226140500005D1F98 /* quick-groceriesUITests */,
+				3F7D422A261404FC005D1F98 /* Products */,
+				BAF9CB0A69D6B2A237D96D87 /* Pods */,
+				BEA523AA1DFC232DD3C77299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7D422A261404FC005D1F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D4229261404FC005D1F98 /* quick-groceries.app */,
+				3F7D424426140500005D1F98 /* quick-groceriesTests.xctest */,
+				3F7D424F26140500005D1F98 /* quick-groceriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7D422B261404FC005D1F98 /* quick-groceries */ = {
+			isa = PBXGroup;
+			children = (
+				3F3BA05F263E613F004FD29C /* Recipe.h */,
+				3F3BA05E263E613F004FD29C /* Recipe.m */,
+				3F3BA05D263E611B004FD29C /* CustomCells */,
+				3F7D422C261404FC005D1F98 /* AppDelegate.h */,
+				3F7D422D261404FC005D1F98 /* AppDelegate.m */,
+				3F7D422F261404FC005D1F98 /* SceneDelegate.h */,
+				3F7D4230261404FC005D1F98 /* SceneDelegate.m */,
+				3F5A2A2A26200EE2006D0706 /* Controllers */,
+				3F7D4235261404FC005D1F98 /* Main.storyboard */,
+				3F7D4264261409A6005D1F98 /* GoogleService-Info.plist */,
+				3F7D4238261404FF005D1F98 /* Assets.xcassets */,
+				3F7D423A261404FF005D1F98 /* LaunchScreen.storyboard */,
+				3F7D423D261404FF005D1F98 /* Info.plist */,
+				3F7D423E261404FF005D1F98 /* main.m */,
+				3F6D5B1526400DA4005682CD /* Ingredient.h */,
+				3F6D5B1626400DA4005682CD /* Ingredient.m */,
+			);
+			path = "quick-groceries";
+			sourceTree = "<group>";
+		};
+		3F7D424726140500005D1F98 /* quick-groceriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D424826140500005D1F98 /* quick_groceriesTests.m */,
+				3F7D424A26140500005D1F98 /* Info.plist */,
+			);
+			path = "quick-groceriesTests";
+			sourceTree = "<group>";
+		};
+		3F7D425226140500005D1F98 /* quick-groceriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D425326140500005D1F98 /* quick_groceriesUITests.m */,
+				3F7D425526140500005D1F98 /* Info.plist */,
+			);
+			path = "quick-groceriesUITests";
+			sourceTree = "<group>";
+		};
+		BAF9CB0A69D6B2A237D96D87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A260262E922752A1E790B862 /* Pods-quick-groceries.debug.xcconfig */,
+				E635EE98EA4C7D0AE45FC2A3 /* Pods-quick-groceries.release.xcconfig */,
+				ACC0E7DDA2EDE7A73DDF8BF0 /* Pods-quick-groceries-quick-groceriesUITests.debug.xcconfig */,
+				48E5BD3EB1E0EEB9B4259881 /* Pods-quick-groceries-quick-groceriesUITests.release.xcconfig */,
+				93E28831635C36F1006C7824 /* Pods-quick-groceriesTests.debug.xcconfig */,
+				93435FEECC1214FAD2046727 /* Pods-quick-groceriesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEA523AA1DFC232DD3C77299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D28901305EEA9E151AB586B /* Pods_quick_groceries.framework */,
+				392C8D02D00F9F921305BA0C /* Pods_quick_groceries_quick_groceriesUITests.framework */,
+				FBD663D0B186039AE39A9817 /* Pods_quick_groceriesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7D4228261404FC005D1F98 /* quick-groceries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D425826140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceries" */;
+			buildPhases = (
+				956B68E10200A7718B004467 /* [CP] Check Pods Manifest.lock */,
+				3F7D4225261404FC005D1F98 /* Sources */,
+				3F7D4226261404FC005D1F98 /* Frameworks */,
+				3F7D4227261404FC005D1F98 /* Resources */,
+				85981B7869CC147DA458A1E5 /* [CP] Embed Pods Frameworks */,
+				11529819E44DCF80DB6B1865 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quick-groceries";
+			productName = "quick-groceries";
+			productReference = 3F7D4229261404FC005D1F98 /* quick-groceries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7D424326140500005D1F98 /* quick-groceriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D425B26140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceriesTests" */;
+			buildPhases = (
+				B351026924E4499C44CC44EC /* [CP] Check Pods Manifest.lock */,
+				3F7D424026140500005D1F98 /* Sources */,
+				3F7D424126140500005D1F98 /* Frameworks */,
+				3F7D424226140500005D1F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7D424626140500005D1F98 /* PBXTargetDependency */,
+			);
+			name = "quick-groceriesTests";
+			productName = "quick-groceriesTests";
+			productReference = 3F7D424426140500005D1F98 /* quick-groceriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F7D424E26140500005D1F98 /* quick-groceriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D425E26140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceriesUITests" */;
+			buildPhases = (
+				7724F1EF1EDC66BB7CF4F2DA /* [CP] Check Pods Manifest.lock */,
+				3F7D424B26140500005D1F98 /* Sources */,
+				3F7D424C26140500005D1F98 /* Frameworks */,
+				3F7D424D26140500005D1F98 /* Resources */,
+				DBF15708583233CE298579E7 /* [CP] Embed Pods Frameworks */,
+				709FDC5D8B4A7A68165C44FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7D425126140500005D1F98 /* PBXTargetDependency */,
+			);
+			name = "quick-groceriesUITests";
+			productName = "quick-groceriesUITests";
+			productReference = 3F7D424F26140500005D1F98 /* quick-groceriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7D4221261404FC005D1F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					bB,
+				);
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3F7D4228261404FC005D1F98 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3F7D424326140500005D1F98 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3F7D4228261404FC005D1F98;
+					};
+					3F7D424E26140500005D1F98 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3F7D4228261404FC005D1F98;
+					};
+				};
+			};
+			buildConfigurationList = 3F7D4224261404FC005D1F98 /* Build configuration list for PBXProject "quick-groceries" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7D4220261404FC005D1F98;
+			productRefGroup = 3F7D422A261404FC005D1F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7D4228261404FC005D1F98 /* quick-groceries */,
+				3F7D424326140500005D1F98 /* quick-groceriesTests */,
+				3F7D424E26140500005D1F98 /* quick-groceriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7D4227261404FC005D1F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D423C261404FF005D1F98 /* LaunchScreen.storyboard in Resources */,
+				3F7D4265261409A6005D1F98 /* GoogleService-Info.plist in Resources */,
+				3F7D4239261404FF005D1F98 /* Assets.xcassets in Resources */,
+				3F7D4237261404FC005D1F98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424226140500005D1F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424D26140500005D1F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11529819E44DCF80DB6B1865 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709FDC5D8B4A7A68165C44FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7724F1EF1EDC66BB7CF4F2DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-groceries-quick-groceriesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85981B7869CC147DA458A1E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-groceries/Pods-quick-groceries-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956B68E10200A7718B004467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-groceries-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B351026924E4499C44CC44EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quick-groceriesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF15708583233CE298579E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quick-groceries-quick-groceriesUITests/Pods-quick-groceries-quick-groceriesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7D4225261404FC005D1F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F026486826328320004A8583 /* LoginViewController.m in Sources */,
+				3F3BA060263E613F004FD29C /* Recipe.m in Sources */,
+				3F7D422E261404FC005D1F98 /* AppDelegate.m in Sources */,
+				3FAC34F62632852A0021A92D /* TabBarController.m in Sources */,
+				F0E2472D26258CFF00ED8BD9 /* EditPriceViewController.m in Sources */,
+				3F7D423F261404FF005D1F98 /* main.m in Sources */,
+				F0E2473326259BD200ED8BD9 /* GroceryListViewController.m in Sources */,
+				3F7D4231261404FC005D1F98 /* SceneDelegate.m in Sources */,
+				3F6D5B1726400DA4005682CD /* Ingredient.m in Sources */,
+				3F6D5B11264004EF005682CD /* NavigationViewController.m in Sources */,
+				3F6D5B08263FC1E8005682CD /* EditPriceCell.m in Sources */,
+				3F5A2A30262011BB006D0706 /* RecipeViewController.m in Sources */,
+				3F3BA066263E6162004FD29C /* RecipeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424026140500005D1F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D424926140500005D1F98 /* quick_groceriesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D424B26140500005D1F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D425426140500005D1F98 /* quick_groceriesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7D424626140500005D1F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7D4228261404FC005D1F98 /* quick-groceries */;
+			targetProxy = 3F7D424526140500005D1F98 /* PBXContainerItemProxy */;
+		};
+		3F7D425126140500005D1F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7D4228261404FC005D1F98 /* quick-groceries */;
+			targetProxy = 3F7D425026140500005D1F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7D4235261404FC005D1F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7D4236261404FC005D1F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7D423A261404FF005D1F98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7D423B261404FF005D1F98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7D425626140500005D1F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7D425726140500005D1F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7D425926140500005D1F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A260262E922752A1E790B862 /* Pods-quick-groceries.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceries/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceries";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7D425A26140500005D1F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E635EE98EA4C7D0AE45FC2A3 /* Pods-quick-groceries.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceries/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceries";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F7D425C26140500005D1F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E28831635C36F1006C7824 /* Pods-quick-groceriesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceriesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quick-groceries.app/quick-groceries";
+			};
+			name = Debug;
+		};
+		3F7D425D26140500005D1F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93435FEECC1214FAD2046727 /* Pods-quick-groceriesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceriesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quick-groceries.app/quick-groceries";
+			};
+			name = Release;
+		};
+		3F7D425F26140500005D1F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC0E7DDA2EDE7A73DDF8BF0 /* Pods-quick-groceries-quick-groceriesUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceriesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quick-groceries";
+			};
+			name = Debug;
+		};
+		3F7D426026140500005D1F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E5BD3EB1E0EEB9B4259881 /* Pods-quick-groceries-quick-groceriesUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "quick-groceriesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.com.quick-groceriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quick-groceries";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7D4224261404FC005D1F98 /* Build configuration list for PBXProject "quick-groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D425626140500005D1F98 /* Debug */,
+				3F7D425726140500005D1F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7D425826140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D425926140500005D1F98 /* Debug */,
+				3F7D425A26140500005D1F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7D425B26140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D425C26140500005D1F98 /* Debug */,
+				3F7D425D26140500005D1F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7D425E26140500005D1F98 /* Build configuration list for PBXNativeTarget "quick-groceriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D425F26140500005D1F98 /* Debug */,
+				3F7D426026140500005D1F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7D4221261404FC005D1F98 /* Project object */;
+}
